@@ -9,8 +9,12 @@
 
 /* スマホ用メディアクエリ */
 @media(max-width:670px){
-  #{
-    width: 100%;
+  .slill{
+    /* display: flex; */
+  }
+
+  .skill-li{
+    width: 50%;
   }
 }
 
@@ -38,7 +42,7 @@
 
 /* ナビゲーションメニュー */
 .nav{
-  background-color: ivory;
+  background-color: rgba(255, 255, 240, 0.815);
   display: inline;
 }
 
@@ -96,16 +100,17 @@
 
 .skill{
   font-family: serif;
-  width: 100%;
   text-align: center;
+  width: 100%;
   margin-top: 30px;
   display: block;
 }
 
 .skill-li{
   display: inline-block;
-  background-color: lightyellow;
+  background-image: url(images/gradation.jpg);
   padding:100px 100px;
+  /* width: 25%; */
 }
 
 /* ワークス */
@@ -121,11 +126,12 @@
   display: inline-block;
 }
 
+/* コンタクト */
 .contact{
   text-align: center;
   list-style: none;
   display: block;
-  /* color: black; */
+  margin-bottom: 70px;
 }
 
 .contact-li{
@@ -144,6 +150,6 @@
 /* フッター */
 footer{
   text-align: center;
-  background-color: palegoldenrod;
+  background-color: rgba(248, 245, 214, 0.452);
   padding:60px 0;
 }
