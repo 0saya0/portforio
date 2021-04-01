@@ -7,6 +7,13 @@
   }
 }
 
+/* スマホ用メディアクエリ */
+@media(max-width:670px){
+  #{
+    width: 100%;
+  }
+}
+
 /* トップの画像 */
 .top-image{
   text-align: center;
