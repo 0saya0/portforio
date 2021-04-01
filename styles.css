@@ -10,7 +10,7 @@
 /* スマホ用メディアクエリ */
 @media(max-width:670px){
   .slill{
-    /* display: flex; */
+    width: 100%;
   }
 
   .skill-li{
@@ -60,7 +60,15 @@
   font-size: 1.5rem;
   font-family:serif;
   font-weight: bold;
+}
+
+.nav a{
+  text-decoration: none;
   color: black;
+}
+
+.nav li:hover{
+  color: orange;
 }
 
 
@@ -139,9 +147,14 @@
   margin: 0 60px;
 }
 
+.contact-li a{
+  text-decoration: none;
+}
+
 .contact p{
   color: black;
 }
+
 
 .fa-4x{
   color: black;
