@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+/* PC用　メディアクエリ */
+@media(max-width:1000px){
+  #{
+    width:100%;
+  }
+}
+
+/* トップの画像 */
+.top-image{
+  text-align: center;
+  background-image: url(images/flowers2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 25rem;
+}
+
+.top-image h1{
+  font-family: serif;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 10rem;
+}
+
+.top-image p{
+  font-family: serif;
+  font-size: 2rem;
+}
+
+/* ナビゲーションメニュー */
+.nav{
+  background-color: ivory;
+  display: inline;
+}
+
+.nav ul{
+  list-style-type: none;
+  text-align: center;
+  margin: auto;
+  background-color: lightyellow;
+  width:100%;
+}
+
+.nav li{
+  display: inline-block;
+  padding-right: 25px;
+  font-size: 1.5rem;
+  font-family:serif;
+  font-weight: bold;
+  color: black;
+}
+
+
+/* プロフィール */
+.heading {
+  font-family: serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top:6rem;
+}
+.profile-box{
+  text-align: center;
+  margin: 20px auto;
+}
+
+.photo{
+  display: inline-block;
+  background-color: white;
+  background-image: url(images/YJZL6211.png);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-right: 60px;
+}
+
+.profile-text{
+  display: inline-block;
+  /* background-color: pink; */
+  font-family: serif;
+  width:40%;
+}
+
+
+
+/* スキル */
+
+.skill{
+  font-family: serif;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.skill-li{
+  display: inline-block;
+  background-color: lightyellow;
+  padding:100px 100px;
+}
+
+/* ワークス */
+.works{
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+.site{
+  width: 40%;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.contact{
+  text-align: center;
+  list-style: none;
+  display: block;
+  /* color: black; */
+}
+
+.contact-li{
+  display: inline-block;
+  margin: 0 60px;
+}
+
+.contact p{
+  color: black;
+}
+
+.fa-4x{
+  color: black;
+}
+
+/* フッター */
+footer{
+  text-align: center;
+  background-color: palegoldenrod;
+  padding:60px 0;
+}
