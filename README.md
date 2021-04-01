@@ -1,2 +1,2 @@
-https://github.com/0saya0/portforio/
+https://0saya0.github.io/portforio/
 # portforio
